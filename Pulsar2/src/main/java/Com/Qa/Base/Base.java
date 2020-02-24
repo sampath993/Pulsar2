@@ -21,7 +21,7 @@ public class Base {
 	
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\sampathkumar\\Pulsar2\\src\\main\\java\\Com\\Pulsar2\\Config\\Config.Properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\PulivarS\\git\\Pulsar2\\Pulsar2\\src\\main\\java\\Com\\Pulsar2\\Config\\Config.Properties");
 			prop.load(ip);
 			
 		} catch (FileNotFoundException e) {
