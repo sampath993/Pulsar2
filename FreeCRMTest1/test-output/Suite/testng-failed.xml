@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Com.CRM.TestCases.LoginPageTest1">
+        <methods>
+          <include name="Orange_Logo_Img_Test"/>
+          <include name="loginPageTitle"/>
+          <include name="LoginPage"/>
+          <include name="TestDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.CRM.TestCases.LoginPageTest1 -->
+      <class name="Com.CRM.TestCases.HomePageTest">
+        <methods>
+          <include name="verifyadmin"/>
+          <include name="verifyLeaveTest2"/>
+          <include name="verifyTimeTest3"/>
+          <include name="setUp"/>
+          <include name="HomePageaftermethod"/>
+          <include name="validateEmpDetails"/>
+          <include name="verifyHopmePageTitle"/>
+          <include name="verifyPIMTest1"/>
+        </methods>
+      </class> <!-- Com.CRM.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
