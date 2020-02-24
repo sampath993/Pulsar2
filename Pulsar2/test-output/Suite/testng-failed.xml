@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Pulsar 2 Sanity Test(failed)">
+    <classes>
+      <class name="GeneralTest.TestGeneraltab">
+        <methods>
+          <include name="validateFindSuddenImpact"/>
+          <include name="validateFindFeature"/>
+          <include name="validateFindProduct"/>
+          <include name="validateFindChangeRequest"/>
+          <include name="TearDown"/>
+          <include name="validateUserAccount"/>
+          <include name="validateFindAgencyNoteBook"/>
+          <include name="validateFindComponent"/>
+          <include name="HomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="PulsarLogTest"/>
+          <include name="VerificationAddProduct"/>
+          <include name="ValidateMarkeing"/>
+        </methods>
+      </class> <!-- GeneralTest.TestGeneraltab -->
+    </classes>
+  </test> <!-- Pulsar 2 Sanity Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
