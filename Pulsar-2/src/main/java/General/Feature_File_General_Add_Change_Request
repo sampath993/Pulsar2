@@ -1,0 +1,6 @@
+Scenario = "Verify Pulsar General Module"
+Given = "Click on All Service Link"
+When = "Enter Pulsar URL"
+Then = "Click on General link"
+Then = "Click on Add Change Request link"
+And= "Verify Add Change request Page"

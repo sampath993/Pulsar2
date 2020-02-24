@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48664" started-at="2019-11-07T21:22:22 IST" finished-at="2019-11-07T21:23:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48664" started-at="2019-11-07T21:22:22 IST" finished-at="2019-11-07T21:23:11 IST">
+      <class name="DataProvider.datadriven">
+        <test-method status="PASS" signature="logincheck(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.datadriven@43814d18]" name="logincheck" duration-ms="21480" started-at="2019-11-07T21:22:23 IST" data-provider="logindata" finished-at="2019-11-07T21:22:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincheck -->
+        <test-method status="PASS" signature="logincheck(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.datadriven@43814d18]" name="logincheck" duration-ms="13733" started-at="2019-11-07T21:22:44 IST" data-provider="logindata" finished-at="2019-11-07T21:22:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincheck -->
+        <test-method status="PASS" signature="logincheck(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.datadriven@43814d18]" name="logincheck" duration-ms="13207" started-at="2019-11-07T21:22:58 IST" data-provider="logindata" finished-at="2019-11-07T21:23:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hfhgfg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jkkjjhj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincheck -->
+      </class> <!-- DataProvider.datadriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
