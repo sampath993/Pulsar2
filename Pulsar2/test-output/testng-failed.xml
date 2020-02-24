@@ -6,7 +6,7 @@
       <class name="MarketingTest.TestMarketing">
         <methods>
           <include name="setUp"/>
-          <include name="Validate_Features_Page"/>
+          <include name="Validate_Markeing_Page"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- MarketingTest.TestMarketing -->
